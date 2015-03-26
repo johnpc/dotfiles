@@ -1,6 +1,6 @@
 ## Installation
 
-    git clone https://github.com/pmccarren/dotfiles.git ~/.dotfiles
+    git clone https://github.com/johnpc/dotfiles.git ~/.dotfiles
     cd ~/.dotfiles
     make
 

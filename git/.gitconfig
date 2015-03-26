@@ -1,6 +1,6 @@
 [user]
-		name = Patrick McCarren
-		email = patrick@mmsc.io
+		name = John Corser
+		email = john@johncorser.com
 [credential]
 		helper = cache --timeout=3600
 [core]

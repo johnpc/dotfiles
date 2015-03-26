@@ -131,8 +131,21 @@ autoload -Uz pubip
 
 # load encode64 upon first reference
 . ~/.zfunctions/encode64
-
 . ~/.zfunctions/dirhistory
 
 # ssh alias for ignoring the host fingerprint
 alias sshif="ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null"
+
+# general purpose aliases
+alias g="git"
+alias l="ls | lolcat"
+alias top="htop"
+alias rainbow="lolcat"
+alias apt-get="sudo apt-get"
+alias c="clear"
+alias h="history | lolcat"
+alias ports="netstat -tulanp"
+alias su="sudo su"
+alias root="sudo su"
+alias myip="curl http://ipecho.net/plain; echo"
+alias fakecommit="curl -s http://whatthecommit.com/index.txt | lolcat"

@@ -9,30 +9,25 @@
 [log]
 		decorate = full
 [alias]
-		po = push origin
-		st = status
-		di = diff
-		co = checkout
-		ci = commit
-		br = branch
-		bra = branch -a
-		fl = flow
-		flfe = flow feature
-		flre = flow release
-		flho = flow hotfix
-		flsu = flow support
-		flve = flow version
-		sh = show
-		sta = stash
-		sub = submodule
-		pre = pull --rebase
-		up = pull --rebase
-		lg = log --graph --pretty=format:'%Cred%h%Creset %C(cyan)%an%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
-		logg = log --graph
-		tg = tag
-		subur = submodule update --recursive
+    st = status
+    di = diff
+    co = checkout
+    ci = commit
+    br = branch
+    sta = stash
+    sub = submodule
+    pre = pull --rebase
+  lg = log --graph --pretty=format:'%Cred%h%Creset %C(cyan)%an%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
 [color]
-		ui = true
+    diff = auto
+    status = auto
+    branch = auto
+[core]
+    editor = vim
+[merge]
+    tool = opendiff
+[http]
+    sslVerify = off
 [push]
 		default = matching
 [github]

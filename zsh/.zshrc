@@ -150,3 +150,4 @@ alias root="sudo su"
 alias myip="curl http://ipecho.net/plain; echo"
 alias fakecommit="curl -s http://whatthecommit.com/index.txt | lolcat"
 alias s="sudo rails s -p 80"
+alias fuck='$(thefuck $(fc -ln -1))'

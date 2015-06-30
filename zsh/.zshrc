@@ -112,8 +112,8 @@ alias reset-finder-open-with-menu="/System/Library/Frameworks/CoreServices.frame
 export MYSQL_PS1="\u@\h [\d]> "
 
 # vagrant aliases
-alias vup="vagrant up"
-alias vssh="vagrant ssh"
+alias vup="cd ~/repos/vagrant; vagrant up"
+alias vssh="cd ~/repos/vagrant; vagrant ssh"
 alias vdf="vagrant destroy -f"
 alias vuas="vagrant up && vagrant ssh -c 'sudo tmux a' && vagrant suspend"
 
